@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-git config --global user.email heroku@gmail.com
-git config --global user.name heroku
+git config --ahmadprayogo501u@gmail.com
+git config --ahmadprayogo501u@gmail.com
 buildpack="heroku/python"
 heroku login -i
 app_1=$(echo app$(shuf -i 1000000000-9999999999 -n 1))
@@ -41,5 +41,4 @@ echo "running succes"
 
 
 
-sudo apt update && sudo apt install npm -y && npm i -g heroku
 
